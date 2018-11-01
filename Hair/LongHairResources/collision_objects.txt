@@ -1,0 +1,83 @@
+#these are the collision objects for the long hair from maya
+#spheres have to be specified with 's', cylinders with 'c'
+#in addition, the sphere that denotes the head has to have a special qualifier called 'head'
+#any implicit that also has to be used as a barycentric interpolant hair obstacle should be labeled with 'barycentricObstacle'
+
+#for implicits:
+#scale
+#rotation (in radians)
+#translation
+
+
+// 's' this is the 'head'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  
+2.4 2.788 3.002
+0.0 0.0 0.0
+0.018 1.109 -0.157
+
+// 's' this is the 'chin'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  
+1.2 1.0 1.1
+0.0 0.0 0.0
+0.0 -0.8 1.3
+
+
+// 's' 'X' this is the 'body'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+4.497 1.797 1.95
+0.0 0.0 0.0
+0 -4.454 -1.3
+
+// 's' 'X' this is the 'neck'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+1.597 2.797 1.597
+0.0 0.0 0
+0 -1.5 -0.5
+
+// 's' 'X' this is the 'left breast'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+2.0 1.497 2.45
+0.0 0.0 0.0
+-1.6 -5.3 -0.7
+
+
+// 's' 'X' this is the 'right breast'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+2.0 1.497 2.45
+0.0 0.0 0.0
+1.6 -5.3 -0.7
+
+
+// 's' 'X' this is the 'left shoulder'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+2.55 1.497 1.7
+0.0 0.0 0.0
+-2.513 -5.0 -1.4
+
+// 's' 'X' this is the 'right shoulder'
+// 'barycentricObstacle'
+// 'basePoseToMeshBind'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+2.55 1.497 1.7
+0.0 0.0 0.0
+2.513 -5.0 -1.4
+
+// 'scalpToMesh'
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+
+// 'InitialTotalTransform'
+1 0 0 0 0 1 0 0 0 0 -1 0 0 0 0 1

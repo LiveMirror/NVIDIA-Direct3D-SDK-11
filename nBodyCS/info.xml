@@ -1,0 +1,24 @@
+<entry>
+    <name>N-Body Interaction</name>
+    <owner>Mark Harris</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample demonstrates efficient all-pairs simulation of a gravitational n-body simulation in DirectX 11, using DirectCompute
+]]></description>
+    <project_path>Source\nBodyCS</project_path>
+    <screenshot_sm>doc\nBodyCS_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\nBodyCS_md.jpg</screenshot_md>
+    <screenshot_lg>doc\nBodyCS_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper></whitepaper>
+    <executable>Bin\nbodyCS.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>Graphics Interop,Physically-Based Simulation,Data-Parallel Algorithms</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\pointsprite_grey.dds</file>
+        <file>..\..\media\UI</file>
+        <file>..\nBodyCS</file>
+    </files>
+</entry>

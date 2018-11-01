@@ -1,0 +1,38 @@
+<entry>
+    <name>Multi-View Soft Shadows</name>
+    <owner>Louis Bavoil</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[Multi-View Soft Shadows (MVSS) is a contact-hardening soft shadow rendering technique based on averaging hard shadows from multiple point lights.
+
+The Knight model used in this project has kindly been provided by animedia PM at Turbo Squid and can be found <A href="http://www.turbosquid.com/FullPreview/FullPreview.cfm?ID=184705&Action=FullPreview">here</A>.]]></description>
+    <project_path>Source\MultiViewSoftShadows</project_path>
+    <screenshot_sm>doc\MultiViewSoftShadows_128.png</screenshot_sm>
+    <screenshot_md>doc\MultiViewSoftShadows_256.png</screenshot_md>
+    <screenshot_lg>doc\MultiViewSoftShadows_512.png</screenshot_lg>
+    <userguide></userguide>
+    <video>doc\MultiViewSoftShadows.wmv</video>
+    <whitepaper>doc\MultiViewSoftShadows.pdf</whitepaper>
+    <executable>bin\MultiViewSoftShadows.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>HLSL,Pixel shader,MSFT FX,Soft Shadows</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>shaders</file>
+        <file>nvapi.h</file>
+        <file>nvapi.lib</file>
+        <file>nvstereo.h</file>
+        <file>..\..\media\goof_knight.sdkmesh</file>
+        <file>..\..\media\goof_knight1.sdkmesh</file>
+        <file>..\..\media\goof_knight2.sdkmesh</file>
+        <file>..\..\media\goof_knight3.sdkmesh</file>
+        <file>..\..\media\goof_knight4.sdkmesh</file>
+        <file>..\..\media\goof_knight5.sdkmesh</file>
+        <file>..\..\media\goof_knight6.sdkmesh</file>
+        <file>..\..\media\lichen6.dds</file>
+        <file>..\..\media\lichen6_normal.dds</file>
+        <file>..\..\media\lichen6_rock.dds</file>
+        <file>..\..\media\UI</file>
+        <file>..\MultiViewSoftShadows</file>
+    </files>
+</entry>

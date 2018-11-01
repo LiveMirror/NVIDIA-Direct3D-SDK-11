@@ -1,0 +1,26 @@
+<entry>
+    <name>3D Vision Sample</name>
+    <owner>John McDonald</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[StereoIssues demonstrates the two most common issues seen when using 3D Vision Automatic, and how to fix them using multiple techniques.]]></description>
+    <project_path>Source\StereoIssues</project_path>
+    <screenshot_sm>doc\StereoIssues_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\StereoIssues_md.jpg</screenshot_md>
+    <screenshot_lg>doc\StereoIssues_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper>doc\3DV - BestPracticesGuide.pdf</whitepaper>
+    <executable>Bin\StereoIssues.exe</executable>
+    <minspec>GeForce 8</minspec>
+    <keywords>Stereo, Direct3D10, nvapi, nvstereo</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\bunny.sdkmesh</file>
+        <file>..\..\media\UI</file>
+        <file>nvapi.lib</file>
+        <file>..\..\media\bubblebunny.png</file>
+        <file>..\..\media\cursor.png</file>
+        <file>..\StereoIssues</file>
+    </files>
+</entry>

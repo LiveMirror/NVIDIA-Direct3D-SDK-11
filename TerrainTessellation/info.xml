@@ -1,0 +1,30 @@
+<entry>
+    <name>TerrainTessellation</name>
+    <owner>Iain Cantlay</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample shows how DirectX 11 hardware tessellation can be used to implement a highly-efficient terrain engine that supports high geometric detail.
+
+]]></description>
+    <project_path>Source\TerrainTessellation</project_path>
+    <screenshot_sm>doc\TerrainTessellation_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\TerrainTessellation_md.jpg</screenshot_md>
+    <screenshot_lg>doc\TerrainTessellation_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper>Doc\TerrainTessellation_WhitePaper.pdf</whitepaper>
+    <executable>Bin\TerrainTessellation.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>Tessellation, terrain, hull shader, domain shader, displacement mapping, fractals</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\TerrainTessellation</file>
+        <file>..\..\media\UI</file>
+        <file>..\..\media\fBm3Octaves.dds</file>
+        <file>..\..\media\fBm5Octaves.dds</file>
+        <file>..\..\media\fBm5OctavesGrad.dds</file>
+        <file>..\..\media\GaussianNoise256.jpg</file>
+        <file>SkyBox11.hlsl</file>
+        <file>..\TerrainTessellation</file>
+    </files>
+</entry>

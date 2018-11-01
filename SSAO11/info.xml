@@ -1,0 +1,27 @@
+<entry>
+    <name>Horizon-Based Ambient Occlusion using Compute Shaders</name>
+    <owner>Louis Bavoil</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This DirectX 11 SDK sample renders Screen-Space Ambient Occlusion (SSAO) using Horizon-Based Ambient Occlusion (HBAO). The AO and blur passes are implemented in compute shaders taking advantage of group-shared memory.]]></description>
+    <project_path>Source\SSAO11</project_path>
+    <screenshot_sm>doc\SSAO11_128.png</screenshot_sm>
+    <screenshot_md>doc\SSAO11_256.png</screenshot_md>
+    <screenshot_lg>doc\SSAO11_512.png</screenshot_lg>
+    <userguide></userguide>
+    <video>doc\SSAO11.wmv</video>
+    <whitepaper>doc\SSAO11.pdf</whitepaper>
+    <executable>bin\SSAO11.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>HLSL,DXSAS</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\directx.ico</file>
+        <file>..\..\media\SSAO11</file>
+        <file>..\..\media\UI</file>
+        <file>..\..\media\AT-AT.sdkmesh</file>
+        <file>..\..\media\Sibenik.sdkmesh</file>
+        <file>..\..\media\leaves.sdkmesh</file>
+        <file>..\SSAO11</file>
+    </files>
+</entry>

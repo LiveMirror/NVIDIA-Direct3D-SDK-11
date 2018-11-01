@@ -1,0 +1,23 @@
+<entry>
+    <name>Island</name>
+    <owner>Tim Tcheblokov</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample uses DirectX 11's tessellation stage to render detailed geometry for both terrain and water.]]></description>
+    <project_path>Source\Island11</project_path>
+    <screenshot_sm>doc\Island11_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\Island11_md.jpg</screenshot_md>
+    <screenshot_lg>doc\Island11_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper></whitepaper>
+    <executable>Bin\Island11.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>Tessellation, terrain, hull shader, domain shader, displacement mapping</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110204</featured_date>
+    <files>
+        <file>..\..\media\UI</file>
+        <file>..\..\media\TerrainTextures</file>
+        <file>..\Island11</file>
+    </files>
+</entry>

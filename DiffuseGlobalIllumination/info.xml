@@ -1,0 +1,26 @@
+<entry>
+    <name>Diffuse Global Illumination</name>
+    <owner>Sarah Tariq</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This code sample shows a method of rendering dynamic scenes with diffuse intereflections in real time. The code is an implementation of the method introduced by Kaplanyan. For more information please refer to: Cascaded light propagation volumes for real-time indirect illumination [Kaplanyan and Dachsbacher 2010]]]></description>
+    <project_path>Source\DiffuseGlobalIllumination</project_path>
+    <screenshot_sm>doc\DiffuseGlobalIllumination_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\DiffuseGlobalIllumination_md.jpg</screenshot_md>
+    <screenshot_lg>doc\DiffuseGlobalIllumination_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper></whitepaper>
+    <executable>Bin\DiffuseGlobalIllumination.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>Lighting, Global Illumination, Reflective Shadow Maps</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\sponza</file>
+        <file>..\..\media\UI</file>
+        <file>..\..\media\arrow.sdkmesh</file>
+        <file>..\..\media\box.sdkmesh</file>
+        <file>..\..\media\unitSphere.sdkmesh</file>
+        <file>..\DiffuseGlobalIllumination</file>
+    </files>
+</entry>

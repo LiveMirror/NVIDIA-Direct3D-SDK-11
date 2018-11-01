@@ -1,0 +1,25 @@
+<entry>
+    <name>PN-Patches</name>
+    <owner>Kirill Dmitriev, Evgeny Makarov</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample shows how to render displaced geometry with PN-Patches (PN-Triangles and PN-Quads) tessellation.]]></description>
+    <project_path>Source\PNPatches</project_path>
+    <screenshot_sm>doc\PNPatches_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\PNPatches_md.jpg</screenshot_md>
+    <screenshot_lg>doc\PNPatches_lg.jpg</screenshot_lg>
+    <userguide>doc\readme.txt</userguide>
+    <video></video>
+    <whitepaper>doc\pnpatches.pdf</whitepaper>
+    <executable>Bin\PNPatches.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>DirectX 11, Tessellation, PN-Triangles, PN-Quads, PN-Patches</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>doc\readme.txt</file>
+        <file>..\..\media\PNPatches</file>
+        <file>..\..\media\UI</file>
+        <file>..\..\media\Tessellation</file>
+        <file>..\PNPatches</file>
+    </files>
+</entry>

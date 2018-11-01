@@ -1,0 +1,22 @@
+<entry>
+    <name>Tessellation Pattern Viewer</name>
+    <owner>Tianyun Ni</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample shows how quad- and triangle-shaped patches are converted into triangles for arbitrary tessellation factors.]]></description>
+    <project_path>Source\ShowTessellationPatterns</project_path>
+    <screenshot_sm>doc\ShowTessellationPatterns_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\ShowTessellationPatterns_md.jpg</screenshot_md>
+    <screenshot_lg>doc\ShowTessellationPatterns_lg.jpg</screenshot_lg>
+    <userguide>doc\README.txt</userguide>
+    <video></video>
+    <whitepaper></whitepaper>
+    <executable>Bin\ShowTessellationPatterns.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>DirectX 11, Tessellation</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\UI</file>
+        <file>..\ShowTessellationPatterns</file>
+    </files>
+</entry>

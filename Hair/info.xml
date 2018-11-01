@@ -1,0 +1,31 @@
+<entry>
+    <name>Hair</name>
+    <owner>Sarah Tariq</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[Using new DirectX 11 features like tessellation and compute shaders, this sample simulates and renders physically realistic hair in real-time.]]></description>
+    <project_path>Source\Hair</project_path>
+    <screenshot_sm>doc\Hair_sm.png</screenshot_sm>
+    <screenshot_md>doc\Hair_md.png</screenshot_md>
+    <screenshot_lg>doc\Hair_lg.png</screenshot_lg>
+    <userguide>ReadMe.txt</userguide>
+    <video></video>
+    <whitepaper>doc\HairSDKWhitePaper.pdf</whitepaper>
+    <executable>Bin\Hair.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>Tessellation, Hair, Compute, Animation</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>LongHairResources</file>
+        <file>HairTextures</file>
+        <file>hairData.txt</file>
+        <file>RecordedTransforms.txt</file>
+        <file>RecordedTransforms1.txt</file>
+        <file>RecordedTransforms2.txt</file>
+        <file>..\..\media\arrow.sdkmesh</file>
+        <file>..\..\media\unitSphere.sdkmesh</file>
+        <file>..\..\media\UI</file>
+        <file>Hair.fxo</file>
+        <file>..\Hair</file>
+    </files>
+</entry>

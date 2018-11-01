@@ -1,0 +1,23 @@
+<entry>
+    <name>FFT Ocean</name>
+    <owner>Lin Nan, Victor Podlozhnyuk</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[The sample uses compute shader to implement Jerry Tessendorf's statistic model of ocean surface, which requires to perform a large set of FFT at the runtime. In addition, perlin noise is used for eliminating the tiling artifact at distance.]]></description>
+    <project_path>Source\OceanCS</project_path>
+    <screenshot_sm>doc\OceanCS_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\OceanCS_md.jpg</screenshot_md>
+    <screenshot_lg>doc\OceanCS_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper>doc\OceanCS_Slides.pdf</whitepaper>
+    <executable>Bin\OceanCS.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>DirectCompute</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\OceanCS</file>
+        <file>..\..\media\UI</file>
+        <file>..\OceanCS</file>
+    </files>
+</entry>

@@ -1,0 +1,23 @@
+<entry>
+    <name>Constant Time Gaussian Blur</name>
+    <owner>Lin Nan</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample implements the Gaussian blur using repeated box filter, which has the main advantage of the execution time being invariant for any filter width. Compute shaders and group shared memory are used to perform per row and per column scan operations in this method.]]></description>
+    <project_path>Source\ConstantTimeGaussianBlur</project_path>
+    <screenshot_sm>doc\ConstantTimeGaussian_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\ConstantTimeGaussian_md.jpg</screenshot_md>
+    <screenshot_lg>doc\ConstantTimeGaussian_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper></whitepaper>
+    <executable>Bin\ConstantTimeGaussianBlur.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>Compute Shader, Image Processing</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\GaussianBlur</file>
+        <file>..\..\media\UI</file>
+        <file>..\ConstantTimeGaussianBlur</file>
+    </files>
+</entry>

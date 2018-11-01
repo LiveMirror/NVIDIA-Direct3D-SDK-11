@@ -1,0 +1,23 @@
+<entry>
+    <name>Opacity Mapping</name>
+    <owner>Jon Jansen, Louis Bavoil</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample application demonstrates efficient rendering of dense self-shadowed particle plumes illuminated by multiple light sources, using DirectX 11 tessellation and mixed resolution rendering.]]></description>
+    <project_path>Source\OpacityMapping</project_path>
+    <screenshot_sm>doc\OpacityMapping_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\OpacityMapping_md.jpg</screenshot_md>
+    <screenshot_lg>doc\OpacityMapping_lg.jpg</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper>doc\OpacityMappingSDKWhitePaper.pdf</whitepaper>
+    <executable>Bin\OpacityMapping.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>lighting, shadows, tessellation, particles, opacity mapping, fill rate</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\OpacityMapping</file>
+        <file>..\..\media\UI</file>
+        <file>..\OpacityMapping</file>
+    </files>
+</entry>

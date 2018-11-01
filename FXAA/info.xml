@@ -1,0 +1,24 @@
+<entry>
+    <name>Image-Based Anti-Aliasing</name>
+    <owner>Timothy Lottes</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[FXAA sample provides an optimized high quality technique for applying anti-aliasing as a post process in a pixel shader.
+]]></description>
+    <project_path>Source\FXAA</project_path>
+    <screenshot_sm>doc\Fxaa_sm.png</screenshot_sm>
+    <screenshot_md>doc\Fxaa_md.png</screenshot_md>
+    <screenshot_lg>doc\Fxaa_lg.png</screenshot_lg>
+    <userguide></userguide>
+    <video></video>
+    <whitepaper>doc\FXAA_WhitePaper.pdf</whitepaper>
+    <executable>Bin\FXAA.exe</executable>
+    <minspec>GeForce GTX 200</minspec>
+    <keywords>FXAA, Anti-Aliasing</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\Crypt</file>
+        <file>..\..\media\UI</file>
+        <file>..\FXAA</file>
+    </files>
+</entry>

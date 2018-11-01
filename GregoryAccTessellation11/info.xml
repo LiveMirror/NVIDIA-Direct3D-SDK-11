@@ -1,0 +1,23 @@
+<entry>
+    <name>Gregory ACC</name>
+    <owner>Tianyun Ni</owner>
+    <group>DirectX 11</group>
+    <description><![CDATA[This sample shows how to render displaced approximating Catmull-Clark subdivision surfaces using gregory patches]]></description>
+    <project_path>Source\GregoryAccTessellation11</project_path>
+    <screenshot_sm>doc\GregoryACC11_sm.jpg</screenshot_sm>
+    <screenshot_md>doc\GregoryACC11_md.jpg</screenshot_md>
+    <screenshot_lg>doc\GregoryACC11_lg.jpg</screenshot_lg>
+    <userguide>doc\readme.txt</userguide>
+    <video></video>
+    <whitepaper>doc\GregoryACC11_WhitePaper.pdf</whitepaper>
+    <executable>Bin\GregoryACC11.exe</executable>
+    <minspec>GeForce GTX 400</minspec>
+    <keywords>DirectX 11, Tessellation, ACC, Gregory patches</keywords>
+    <scope>3D Graphics</scope>
+    <featured_date>110304</featured_date>
+    <files>
+        <file>..\..\media\GregoryAccTessellation11</file>
+        <file>..\..\media\UI</file>
+        <file>..\GregoryAccTessellation11</file>
+    </files>
+</entry>
